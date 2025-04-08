@@ -7,7 +7,7 @@
 }
 
 html, body {
-    background-color: rgb(88, 155, 88);
+    background-color: rgb(121, 214, 121);
 }
 
 header {
@@ -20,8 +20,22 @@ header > h1 {
     color: white;
 }
 
-menu {
+#burguer {
+    background-color: black;
     display: block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: rgb(2, 41, 2);
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
@@ -39,7 +53,7 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
-    background-color: rgb(0, 156, 0);
+    background-color: rgb(38, 180, 38);
 }
 
 main > article {
