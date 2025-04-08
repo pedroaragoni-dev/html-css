@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(../imagens/back-tablet.jpg);
+}
+
+main {
+    border: 2px solid black;
+    width: 700px;
+}
+
+h1 {
+    text-shadow: none;
+    color: black;
+    font-size: 1em; 
+
+}
+
+
+
+img#phone {  display: none; }
+img#tablet { display: none; }
+img#desktop { display: none; }
+img#tv { display: none; }
+img#impressora { display: block; }
